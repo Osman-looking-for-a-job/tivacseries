@@ -10,53 +10,53 @@ int main(void)
     // 1. Sistem saatini ayarla
     SysCtlClockSet(SYSCTL_SYSDIV_16 | SYSCTL_USE_OSC | SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ);
 
-    // 2. FPU'yu etkinleþtir
+    // 2. FPU'yu etkinleÅŸtir
     FPUEnable();
     FPULazyStackingEnable();
 
-    // 3. Floating-point deðiþkenler tanýmla
+    // 3. Floating-point deÄŸiÅŸkenler tanÄ±mla
     float a = 5.5, b = 2.2, c = -3.3;
     float result;
     int i ;
 
-    // 4. Temel matematiksel iþlemler
+    // 4. Temel matematiksel iÅŸlemler
     result = a + b;          // Toplama
-    result = a - b;          // Çýkarma
-    result = a * b;          // Çarpma
-    result = a / b;          // Bölme
+    result = a - b;          // Ã‡Ã½karma
+    result = a * b;          // Ã‡arpma
+    result = a / b;          // BÃ¶lme
 
-    // 5. Geliþmiþ matematiksel iþlemler (math.h kullanýmý)
+    // 5. GeliÅŸmiÅŸ matematiksel iÅŸlemler (math.h kullanÄ±mÄ±)
     float angle = 45.0;      // Derece cinsinden
-    float radians = angle * (M_PI / 180.0); // Dereceden radyana dönüþüm
-    float sineValue = sinf(radians);        // Sinüs
-    float cosineValue = cosf(radians);      // Kosinüs
+    float radians = angle * (M_PI / 180.0); // Dereceden radyana dÃ¶nÃ¼ÅŸÃ¼m
+    float sineValue = sinf(radians);        // SinÃ¼s
+    float cosineValue = cosf(radians);      // KosinÃ¼s
     float tangentValue = tanf(radians);     // Tanjant
     float exponential = expf(a);            // e^x
-    float naturalLog = logf(b);             // Doðal logaritma
+    float naturalLog = logf(b);             // DoÃ°al logaritma
     float log10Value = log10f(b);           // Logaritma taban 10
-    float powerValue = powf(a, b);          // Üs alma (a^b)
-    float squareRoot = sqrtf(a);            // Kare kök
+    float powerValue = powf(a, b);          // Ãœs alma (a^b)
+    float squareRoot = sqrtf(a);            // Kare kÃ¶k
 
-    // 6. Mutlak Deðer ve Yuvarlama Ýþlemleri
-    float absValue = fabsf(c);              // Mutlak deðer
-    float ceilValue = ceilf(a);             // Yukarý yuvarlama
-    float floorValue = floorf(a);           // Aþaðý yuvarlama
+    // 6. Mutlak DeÄŸer ve Yuvarlama Ä°ÅŸlemleri
+    float absValue = fabsf(c);              // Mutlak deÃ°er
+    float ceilValue = ceilf(a);             // YukarÃ½ yuvarlama
+    float floorValue = floorf(a);           // AÃ¾aÃ°Ã½ yuvarlama
 
-    // 7. Özel Durumlar (Infinity ve NaN Kontrolü)
+    // 7. Ã–zel Durumlar (Infinity ve NaN KontrolÃ¼)
     float divZero = 1.0f / 0.0f;            // Sonsuzluk (Infinity)
-    float notANumber = sqrtf(-1.0f);        // Tanýmsýz deðer (NaN)
+    float notANumber = sqrtf(-1.0f);        // TanÃ½msÃ½z deÃ°er (NaN)
 
-    // 8. Hýzlý Fourier Dönüþümü için Örnek Sinüs Sinyali Üretimi
+    // 8. HÄ±zlÄ± Fourier DÃ¶nÃ¼ÅŸÃ¼mÃ¼ iÃ§in Ã–rnek SinÃ¼s Sinyali Ãœretimi
     float frequency = 1.0; // Frekans (Hz)
-    float samplingRate = 100.0; // Örnekleme frekansý (Hz)
-    int numSamples = 10;   // Örnek sayýsý
+    float samplingRate = 100.0; // Ã–rnekleme frekansÄ± (Hz)
+    int numSamples = 10;   // Ã–rnek sayÄ±sÄ±
     for (i = 0; i < numSamples; i++)
     {
         float time = i / samplingRate;      // Zaman hesaplama
-        float signal = sinf(2 * M_PI * frequency * time); // Sinüs sinyali
+        float signal = sinf(2 * M_PI * frequency * time); // SinÃ¼s sinyali
     }
 
-    // 9. Floating-Point Ýþlemler Sonucunda LED Göstergesi
+    // 9. Floating-Point Ä°ÅŸlemler Sonucunda LED GÃ¶stergesi
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_1);
 
@@ -66,11 +66,11 @@ int main(void)
     }
     else
     {
-        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1, 0); // LED söndür
+        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1, 0); // LED sÃ¶ndÃ¼r
     }
 
     while (1)
     {
-        // Ana döngü
+        // Ana dÃ¶ngÃ¼
     }
 }
