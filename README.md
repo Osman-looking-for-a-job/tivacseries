@@ -3,9 +3,9 @@ Bu repository, Tiva C Series (TM4C123GXL) mikrodenetleyicisiyle gerçekleştiril
 # İçindekiler
 Proje 1: LCD'ye Karakter Yazdırma 
  
-Proje 2: 24 Saatlik Zamanlayıcı
+Proje 2: Timer Uygulaması
 
-Proje 3: Sharp Develop ile Eşzamanlı Zamanlayıcı
+Proje 3: Sharp Develop ile Eşzamanlı Timer Uygulaması
 
 Proje 4: ADC Sıcaklık Ölçümü
 
