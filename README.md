@@ -67,7 +67,7 @@ Projenin kurulumu için aşağıdaki adımları takip edebilirsiniz:
 4- Çalıştırmaya başlayın ve timer'ın LCD ekranda doğru şekilde çalıştığını gözlemleyin.
 
 # PROJE 3
-Bu proje, Tiva C Series kartı kullanılarak 24 saatlik bir timer sistemi oluşturmayı amaçlamaktadır. Proje, zamanlayıcıyı başlatma, durdurma ve sıfırlama işlemlerini içeren bir sistem geliştirmektedir.İstenilen bir saati sharp develop ortamından göndererek o saatten itibaren timer çalışması gözlemlenebilir. Aynı zamanda LCD ekranında ve Sharp Develop ortamında bir formda bu zamanlayıcının görüntülenmesi sağlanmaktadır.
+Bu proje, Tiva C Series kartı kullanılarak 24 saatlik bir timer sistemi oluşturmayı amaçlamaktadır. Proje, zamanlayıcıyı başlatma, durdurma ve sıfırlama işlemlerini içeren bir sistem geliştirmektedir.İstenilen bir saati sharp develop ortamından UART haberleşmesi ile göndererek o saatten itibaren timer çalışması gözlemlenebilir. Aynı zamanda LCD ekranında ve Sharp Develop ortamında bir formda bu zamanlayıcının görüntülenmesi sağlanmaktadır.
 
 # Proje Açıklaması
 Bu projede, 24 saatlik bir timer oluşturulmuş ve bu timer, LCD ekranda ve Sharp Develop üzerinde bir formda eş zamanlı olarak gösterilmiştir. Timer başlatıldığında, her saniye sayım yapılır ve bu sayım hem LCD üzerinde hem de Sharp Develop uygulamasındaki bir textbox'ta görüntülenir.
