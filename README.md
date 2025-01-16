@@ -116,7 +116,9 @@ Potansiyometre 10k ohm
 
 
 # Detaylı Doküman
-Projenin detaylı açıklamaları ve kullanım talimatları için ADC Proje PDF dosyasına göz atabilirsiniz.
+[ADC PDF](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje4/LM3S8962_ADC.pdf)
+
+Projenin yardımcı olması ve ADC kullanımını anlamayı kolaylaştırmak için ADC PDF dosyasına göz atabilirsiniz.
 
 # Kurulum
 Projenin kurulumu için aşağıdaki adımları takip edebilirsiniz:
