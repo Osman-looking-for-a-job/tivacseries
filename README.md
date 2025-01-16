@@ -82,8 +82,9 @@ Sharp Develop (C#)
 LCD Ekran (16x2)
 
 # Proje Görseli
+![FORM DESIGN](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje3/form%20design.png)
 
-Bu görsel, LCD ekranında ve Sharp Develop üzerindeki formda aynı anda görüntülenen 24 saatlik timer'ı göstermektedir.
+Bu görsel, Sharp Develop üzerindeki form tasarımını göstermektedir.
 
 # Kurulum
 Projenin kurulumu için aşağıdaki adımları takip edebilirsiniz:
