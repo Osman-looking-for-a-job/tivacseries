@@ -19,7 +19,7 @@ Bu projede, LCD ekran kullanılarak belirli bir karakter dizisini ekranda göste
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 LCD Ekran (16x2)
 
@@ -51,7 +51,7 @@ Bu projede, 24 saatlik bir timer oluşturulmuş ve bu timer LCD ekranda görünt
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 LCD Ekran (16x2)
 
@@ -75,7 +75,7 @@ Bu projede, 24 saatlik bir timer oluşturulmuş ve bu timer, LCD ekranda ve Shar
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 Sharp Develop (C#)
 
@@ -108,7 +108,7 @@ Bu projede, bir 10k'lık potansiyometre ile sıcaklık ölçümü yapılmaktadı
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 LCD Ekran (16x2)
 
@@ -142,7 +142,7 @@ Bu projede, kartın hibernation moduna geçişi ve çıkışı yönetilmektedir.
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 
 # Kurulum
@@ -165,7 +165,7 @@ Bu projede, floating point sayılar üzerinde temel matematiksel işlemler (topl
 # Kullanılan Teknolojiler
 Tiva C Series TM4C123GXL
 
-Code Composer Studio
+- [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO)
 
 # Kurulum
 Projenin kurulumu için aşağıdaki adımları takip edebilirsiniz:
