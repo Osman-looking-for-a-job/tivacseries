@@ -55,6 +55,10 @@ Tiva C Series TM4C123GXL
 
 LCD Ekran (16x2)
 
+# Örnek Görsel
+
+![Timer](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje2/T%C4%B0MER.jpeg)
+
 # Kurulum
 Projenin kurulumu için aşağıdaki adımları takip edebilirsiniz:
 
