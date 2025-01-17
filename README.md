@@ -25,7 +25,7 @@ LCD Ekran (16x2)
 
 # Detaylı Doküman
 Projede yardımcı olması için LCD PDF dosyasına ve LCD Pinleri resmine göz atabilirsiniz.
-
+![karakter yazma örnek](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje1/karakter%20yazd%C4%B1rma.jpeg)
 ![LCD Pinleri](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje1/lcd%20pins.jpeg)
 
 ![LCD PDF](https://github.com/Osman-looking-for-a-job/tivacseries/blob/main/proje1/lcd.pdf11.pdf)
